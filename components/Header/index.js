@@ -9,7 +9,7 @@
 //  </div >
 // And add it to the DOM in the .header-container component
 
-function Header() {
+function Header(title) {
 
     const headContainer = document.createElement('div');
     const dated = document.createElement('span');
